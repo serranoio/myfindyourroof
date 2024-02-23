@@ -1,0 +1,129 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax-bg {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide .title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.swiper-slide .subtitle {
+  font-size: 26px;
+  margin-bottom: 12px;
+}
+
+.swiper-slide .text {
+  font-size: 16px;
+  max-width: 500px;
+  line-height: 1.3;
+}
+
+.swiper-container {
+  height: 100vh;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  bottom: 20px;
+  top: 93%;
+  width: 30px;
+  height: 30px;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-button-next {
+  left: 85px;
+}
+
+.swiper-button-prev {
+  left: 45px;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: var(--navFooterColor);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: '\203A'; /* Hexadecimal notation for small right arrow character */
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 90%;
+}
+
+
+.swiper-button-prev::after {
+  content: '\2039'; /* Hexadecimal notation for small left arrow character */
+}
+
+.slide-number {
+  position: absolute;
+  bottom: 20px;
+  right: 45px;
+  top: 91%;
+  color: #fff;
+  font-size: 18px;
+  font-family: Geneva, Verdana, sans-serif;
+}

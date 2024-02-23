@@ -1,0 +1,85 @@
+:root {
+    --white: #ffffff;
+    --gray98: #f7f8fa;
+    --gray96: #f2f4f5;
+    --gray92: #e1e6eb;
+    --gray80: #c3cbd4;
+    --gray60: #818d99;
+    --gray45: #5c6773;
+    --gray30: #3c444d;
+    --gray25: #31373e;
+    --gray22: #2b3033;
+    --gray20: #171d21;
+    --black: #000000;
+    --errorColor: #dc4e41;
+    --alertColor: #f1813f;
+    --warningColor: #f8be34;
+    --successColor: #53a051;
+    --infoColor: #006d9c;
+    
+    --navFooterColor: #F6AB46;
+
+    --primary: #C1FAEC;
+    --secondary: #5CA593;
+    --tertiary: #266F5C;
+    --secondaryBlue: #14748F;
+    --tertiaryBlue: #064562; /* Added this if we decide to use this colour scheme for the entire web app */
+
+    --textColor: #3c444d;
+    --textGray: #6b7785;
+    --textDisabledColor: #c3cbd4;
+    --borderRadius: 0.3rem;
+    --border: 0.1rem solid #c3cbd4;
+    
+    --fontWeightLight: 300;
+    --fontWeightNormal: 400;
+    --fontWeightSemiBold: 500;
+    --fontWeightBold: 700;
+    --fontWeightHeavy: 800;
+    --fontWeightExtraBold: 900;
+    
+    --zindexLayer: 1000;
+    --zindexFixedNavbar: 1030;
+    --zindexModalBackdrop: 1040;
+    --zindexModal: 1050;
+    --zindexPopover: 1060;
+    --zindexToastMessages: 2000;
+    
+    --spacingQuarter: .5rem;
+    --spacingHalf: 1.0rem;
+    --spacing: 2.0rem;
+    --fontSizeSmall: 1.2rem;
+    --fontSize: 1.4rem;
+    --fontSizeLarge: 1.6rem;
+    --fontSizeXLarge: 1.8rem;
+    --fontSizeXXLarge: 2.4rem;
+    --lineHeight: 2.0rem;
+    --inputHeight: 3.2rem;
+    --borderRadius: 3rem;
+    }
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+    
+html {
+    font-size: 62.5%;
+}
+
+.heading {
+    font-size: 32px;
+    color: var(--gray20);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.subheading {
+    color: var(--gray60);
+    margin: 10px auto;
+    text-align: center;
+}
+
+    
+    

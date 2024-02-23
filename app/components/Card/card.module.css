@@ -1,0 +1,8 @@
+.container {
+    border-radius: var(--borderRadius);
+    opacity: 1;
+    margin: 20px;
+    padding: 20px;
+    height: 100%;
+    /* box-shadow: */
+}

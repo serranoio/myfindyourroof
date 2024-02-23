@@ -1,0 +1,21 @@
+
+.aboutContainer {
+  width: 90%;
+  margin: 10rem auto;
+}
+
+.bodyText {
+  text-align: center;
+  margin: 20px auto;
+  width: 70%;
+  font-size: 16px;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 80%;
+  margin: 5rem auto;
+  padding: 0 50px;
+}
